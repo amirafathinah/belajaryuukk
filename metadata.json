@@ -1,0 +1,6 @@
+{
+  "name": "100 Days to ML & AI — Savage Learning Lab",
+  "description": "Platform kurikulum 100 hari praktis Machine Learning & AI dengan maskot savage, streak cerdas, dan penyimpanan lokal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
