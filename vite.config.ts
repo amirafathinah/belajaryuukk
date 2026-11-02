@@ -9,7 +9,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig(() => {
   return {
-    base: './',
+    base: '/belajaryuukk/', // Diubah dari './' agar sesuai dengan sub-path GitHub Pages
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
