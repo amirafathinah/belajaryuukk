@@ -9,8 +9,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig(() => {
   return {
-    base: '/belajaryuukk/', // Diubah dari './' agar sesuai dengan sub-path GitHub Pages
+    base: '/', // Ubah dari '/belajaryuukk/' kembali ke '/' untuk Vercel
     plugins: [react(), tailwindcss()],
+    // ... sisa kode lainnya biarkan tetap sama
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
